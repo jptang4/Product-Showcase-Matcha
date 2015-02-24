@@ -1,0 +1,174 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+
+/* header */
+#header {
+	background-color: #067f37;
+}
+
+#header h3 {
+	font-family: 'Yesteryear', cursive;
+	font-size: 3.7em;
+	color: #ffffff;
+	padding-top: 40px;
+}
+/* header navigation */
+#header nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding-top: 70px;
+	text-align: right;
+
+}
+
+#header nav ul li a:hover {
+	color: #9cfe0c;
+}
+
+/* header nav a links */
+#header nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* header tag color */
+#wrapper h1, h2, h3, h5 {
+	text-align: center;
+	color: #067f37;
+}
+
+#wrapper h5 {
+	margin-top: 35px;
+}
+
+#wrapper h3 {
+	font-family: 'Yesteryear', cursive;
+	font-size: 5em;
+	padding-top: 50px;
+}
+
+
+
+/* aligns tagline and bottle together */
+#wrapper .tagline h5 {
+	margin-top: 40px;
+	padding-top: 65px;
+	text-align: left;
+	padding-left: 40px;
+}
+
+
+.bottle {
+	padding-bottom: 20px;
+}
+
+
+/* sign up text */
+#wrapper .signup {
+	margin-top: -70px;
+}
+
+.signup h5 {
+	text-align: left;
+
+}
+
+.signup_buttons {
+	padding-top: 180px;
+}
+
+
+#main_content {
+	background-color: #81c81d;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+#main_content h4 {
+	padding-top: 20px;
+}
+
+#main_content ul li {
+	list-style-type: disc;
+	line-height: 0.8em;
+}
+
+
+#history {
+	background: url("images/matcha tea leaf.png");
+	background-color: #ffffff
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+
+#history p {
+	text-align: left;
+	margin-left: 0px;
+}
+
+
+#logos:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: -webkit-transform .2s ease-out;
+    -webkit-transition: transform .2s ease-out;
+    -moz-transition: transform .2s ease-out;
+    transition: transform .2s ease-out;
+}
+
+
+#logos {
+	text-align: center;
+	background-color: #81c81d;	
+	padding-bottom: 35px;
+}
+
+#logos h4 {
+	text-align: left;
+	padding-top: 25px;
+}
+
+
+
+#footer {
+	margin-top: 0px;
+	padding-top: 40px;
+	color: #ffffff;
+	background-color: #067f37;
+}
+
+
+#footer ul li {
+	text-decoration: none;
+	color: #ffffff;
+	list-style-type: none;
+	line-height: 0.9em;
+}
+
+#footer ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	list-style-type: none;
+}
+
+#footer ul li a:hover {
+	color: #9cfe0c;
+}
+
+
+#footer .footerlogo {
+	padding-left: -35px;
+}
+
+#footer .social_icons {
+	line-height: 0.5em;
+}
+
+#footer li img {
+	 vertical-align: text-top;
+}
